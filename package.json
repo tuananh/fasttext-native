@@ -1,6 +1,6 @@
 {
   "name": "fasttext-native",
-  "version": "0.2.1-rc0",
+  "version": "0.2.2",
   "description": "fastText bindings for Node.js",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,7 @@
   "keywords": [
     "fasttext"
   ],
-  "author": "David Menger",
-  "contributors": [
-    "Tuan Anh Tran <me@tuananh.org>"
-  ],
+  "author": "Tuan Anh Tran <me@tuananh.org>",
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
