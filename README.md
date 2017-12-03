@@ -2,17 +2,18 @@
 
 > fastText native bindings for ⬡.js
 
-Forked from [pragonauts's fast-text](https://github.com/pragonauts/fast-text)
-
 [![npm](https://img.shields.io/npm/v/fasttext-native.svg?style=flat-square)](https://npm.im/fasttext-native)
 [![Travis](https://img.shields.io/travis/tuananh/fasttext-native/develop.svg?label=Linux%20%26%20macOS%20build&style=flat-square)](https://travis-ci.org/tuananh/fasttext-native)
 [![David](https://img.shields.io/david/tuananh/fasttext-native.svg?style=flat-square)](https://david-dm.org/tuananh/fasttext-native)
+
+Forked from [pragonauts's fast-text](https://github.com/pragonauts/fast-text)
 
 ## Features
 
 - Executing prediction models
 - Searching nearest neighbour
-- Prebuilt binaries for Linux and macOS for Node 8 and 9 (Windows is not supported by fastText)
+- Prebuilt binaries for Linux and macOS (Windows is not supported by fastText)
+- Tracking latest fastText upstream version (currently version 0.1.0)
 
 ## Usage
 
