@@ -1,0 +1,39 @@
+{
+  "name": "fasttext-native",
+  "version": "0.2.1-rc0",
+  "description": "fastText bindings for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "test": "mocha --opts ./mocha.opts ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tuananh/fasttext-native.git"
+  },
+  "keywords": [
+    "fasttext"
+  ],
+  "author": "David Menger",
+  "contributors": [
+    "Tuan Anh Tran <me@tuananh.org>"
+  ],
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "2.8.0",
+    "node-pre-gyp": "0.6.39"
+  },
+  "devDependencies": {
+    "mocha": "4.0.1"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "binary": {
+    "module_name": "fasttext",
+    "module_path": "./out/binding/",
+    "host": "https://github.com/tuananh/fasttext-native/releases/download/",
+    "remote_path": "{version}"
+  }
+}
