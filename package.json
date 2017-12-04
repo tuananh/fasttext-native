@@ -17,6 +17,7 @@
   "author": "Tuan Anh Tran <me@tuananh.org>",
   "license": "MIT",
   "gypfile": true,
+  "os" : ["darwin", "linux"],
   "dependencies": {
     "nan": "2.8.0",
     "node-pre-gyp": "0.6.39"
